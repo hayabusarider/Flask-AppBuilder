@@ -225,7 +225,7 @@ Specify a list of OAUTH_PROVIDERS in **config.py** that you want to allow for yo
                 "client_kwargs": {"scope": "openid profile email groups"},
                 "access_token_url": "https://OKTA_DOMAIN.okta.com/oauth2/v1/token",
                 "authorize_url": "https://OKTA_DOMAIN.okta.com/oauth2/v1/authorize",
-                "server_metadata_url": f"https://OKTA_DOMAIN.okta.com/.well-known/openid-configuration",
+                "jwks_uri":"https://OKTA_DOMAIN.okta.com/oauth2/v1/keys"
             },
         },
         {
